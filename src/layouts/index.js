@@ -12,7 +12,7 @@ import './style.css'
 const TemplateWrapper = (props) => (
   <div>
     <Helmet
-      title="Active Lexington"
+      title={props.data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
