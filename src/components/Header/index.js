@@ -22,7 +22,8 @@ const Header = (props) => (
                                 <li className="nav-item">
                                     <Link to="/#services"  className="nav-link">Our Services </Link>
                                 </li>
-                                <li><Link to="/Booking" className="btn btn-info">Book a Cleaning</Link></li>
+                                <li style={{marginRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li>
+                                <li><Link to="/Register" className="btn btn-info">Sign Up</Link></li>
                             </ul>
                         </div>
                     </nav>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Template',
+    title: 'Disrupt Divorce',
   },
   plugins: [
       {

@@ -4,7 +4,7 @@
    ============================================================== */
 .slider {
   position: relative;
-  background: url(../../images/placeholder1600x1190.png) no-repeat;
+  background: url(../../images/CoverImage.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 10rem 0; }
@@ -12,7 +12,7 @@
     content: "";
     position: absolute;
     left: 0;
-    background: rgba(0, 0, 0, 0.18);
+    background: rgba(0, 0, 0, 0.3);
     right: 0;
     bottom: 0;
     top: 0;
@@ -40,6 +40,9 @@
     @media (max-width: 576px) {
       .slider-content h3 {
         font-size: 24px; } }
+   .slider-content h3 span {
+       border-bottom: 2px solid white;
+   }
 
 .form-wrap {
   margin: 75px 0 0; }

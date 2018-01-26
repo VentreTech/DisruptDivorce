@@ -14,23 +14,46 @@ const HowItWorks = () => (
             <div className="row">
                 <div className="col-md-4">
                     <div className="howit-wrap">
-                        <span className="pe-7s-date"></span>
-                        <h4>Book a Cleaning</h4>
-                        <p>Click the book now button to make a booking on your preffered date and time</p>
+                        <span className="pe-7s-plus"></span>
+                        <h4>1. Create Account</h4>
+                        <p>This will allow you to connect to the dashboard and see all the information you will need to file.</p>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="howit-wrap">
-                        <span className="pe-7s-lock"></span>
-                        <h4>Confirm Booking</h4>
-                        <p>We will confirm your booking along with your instructions via secure transaction.</p>
+                        <span className="pe-7s-file"></span>
+                        <h4>2. Complete Forms</h4>
+                        <p>Fill out the forms required for your filing. We will provide all the appropriate forms, based on your information.</p>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="howit-wrap">
-                        <span className="pe-7s-home"></span>
-                        <h4>We’ll Clean it</h4>
-                        <p>Our trusted & experienced maid will come to your door-step on the time for a cleaning</p>
+                        <span className="pe-7s-check"></span>
+                        <h4>3. Confirmation </h4>
+                        <p>Both spouses will review and confirm that information is correct.</p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="howit-wrap">
+                            <span className="pe-7s-pen"></span>
+                            <h4>4. Online Notary</h4>
+                            <p>The documents will be notarized by both spouses via an online notary.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="howit-wrap">
+                            <span className="pe-7s-file"></span>
+                            <h4>5. E-File Paperwork</h4>
+                            <p>We e-file the completed and notarized documents with the Lexington-Fayette Court House.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="howit-wrap">
+                            <span className="pe-7s-home"></span>
+                            <h4>6. Receive Confirmation</h4>
+                            <p>Both spouses will receive an email notification once the paperwork has been signed by the court.</p>
+                        </div>
                     </div>
                 </div>
             </div>
