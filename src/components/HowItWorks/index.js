@@ -43,14 +43,14 @@ const HowItWorks = () => (
                     </div>
                     <div className="col-md-4">
                         <div className="howit-wrap">
-                            <span className="pe-7s-file"></span>
+                            <span className="pe-7s-paper-plane"></span>
                             <h4>5. E-File Paperwork</h4>
                             <p>We e-file the completed and notarized documents with the Lexington-Fayette Court House.</p>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="howit-wrap">
-                            <span className="pe-7s-home"></span>
+                            <span className="pe-7s-mail-open-file"></span>
                             <h4>6. Receive Confirmation</h4>
                             <p>Both spouses will receive an email notification once the paperwork has been signed by the court.</p>
                         </div>

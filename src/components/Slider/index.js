@@ -10,7 +10,7 @@ const Slider = () => (
               <div className="col-md-10">
                   <div className="slider-content">
                       <h1>Online Divorce Filing</h1>
-                      <h3>Divorce is not <span>EASY</span>..</h3>
+                      <h3>Divorce is <span>not EASY</span>..</h3>
                       <h3>but filing can be <span>SIMPLE</span></h3>
                   </div>
               </div>
