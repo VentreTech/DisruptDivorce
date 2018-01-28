@@ -6,6 +6,7 @@ const Footer = (props) => {
     const today = new Date();
 
     return (
+    <div>
     <footer>
         <div className="container">
             <div className="row mb-5">
@@ -63,6 +64,7 @@ const Footer = (props) => {
             </div>
         </div>
     </footer>
+    </div>
     )
 }
 

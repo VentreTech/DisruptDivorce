@@ -9,7 +9,8 @@ import './pe-icon-7-stroke.css'
 import './font-awesome.min.css'
 import './style.css'
 
-const TemplateWrapper = (props) => (
+const TemplateWrapper = (props) => {
+  return (
   <div>
     <Helmet
       title={props.data.site.siteMetadata.title}
@@ -17,13 +18,18 @@ const TemplateWrapper = (props) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      script={[
+            {"src": "/jquery-3.2.1.min.js", "type": "text/javascript"},
+            {"src": "/bootstrap.min.js", "type": "text/javascript"}
+      ]}
     />
     <Header metaData={props.data.site.siteMetadata} />
     {props.children()}
     <Footer metaData={props.data.site.siteMetadata} />
   </div>
 
-)
+  )
+}
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
