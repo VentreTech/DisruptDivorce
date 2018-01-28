@@ -29,7 +29,6 @@ const Footer = (props) => {
                             <li>Cookies</li>
                             <li>Privacy Policy</li>
                             <li>Security Policy</li>
-                            <li>Money back Guarantee</li>
                         </ul>
                     </div>
                 </div>
@@ -37,11 +36,8 @@ const Footer = (props) => {
                     <div className="foot-box">
                         <h6>OUR LOCATIONS</h6>
                         <ul>
-                            <li>Boston</li>
-                            <li>Chicago</li>
-                            <li>London</li>
-                            <li>Los Angeles</li>
-                            <li>New York</li>
+                            <li>Lexington, KY (Fayette County)</li>
+                            <li>Louisville, KY (Jefferson County)</li>
                         </ul>
                     </div>
                 </div>

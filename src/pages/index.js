@@ -10,7 +10,6 @@ const IndexPage = ({data}) => (
   <div>
     <Slider />
     <HowItWorks />
-    <Testimonials />
     <Services />
   </div>
 )

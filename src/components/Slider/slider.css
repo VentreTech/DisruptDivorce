@@ -132,3 +132,6 @@
   @media (max-width: 576px) {
     .center-block h6 {
       width: 100%; } }
+  .center-block h6 span {
+      border-bottom: 1px solid #869aab;
+  }
