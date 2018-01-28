@@ -1,13 +1,16 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Disrupt Divorce Landing page
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+Base Project
+- Built using Gatsby.js, default starter project
+- Cleanly Template
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+To get project running locally:
+
+- make sure you have gatsby cli installed: npm install --global gatsby-cli
+
+1. git clone project
+2. cd into folder
+3. npm install
+4. gatsby develop
+
 ```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
