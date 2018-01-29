@@ -1,5 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import IconMenu from 'material-ui/IconMenu';
+import MenuItem from 'material-ui/MenuItem';
+import IconButton from 'material-ui/IconButton';
+import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
+
 
 const Header = (props) => (
     <header>
@@ -10,9 +15,20 @@ const Header = (props) => (
                         <Link to="/#" className="navbar-brand">
                             {props.metaData.title}
                         </Link>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
+                        <button className="navbar-toggler" type="button">
+                            <IconMenu
+                              iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
+                              anchorOrigin={{horizontal: 'left', vertical: 'top'}}
+                              targetOrigin={{horizontal: 'left', vertical: 'top'}}
+                            >
+                              <MenuItem
+                                  primaryText="How it works"
+                                  containerElement={<Link to="/#howitworks" />}
+                              />
+                              <MenuItem primaryText="Login" />
+                              <MenuItem primaryText="Sign Up" />
+                            </IconMenu>
+                        </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav">
 
