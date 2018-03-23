@@ -32,13 +32,11 @@ return (
       <div className="col-md-6"></div>
       <div className="col-md-6">
         <div className="service-link">
-         <h3>We are 100% <span>Online</span></h3>
+         <h3>Our <span>guaranteed</span> process</h3>
                         <ul>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Online form completion.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Online collaboration with spouse.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Online notary service.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">No required court appearance.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Others make the claim, <span>we deliver.</span></a></li>
+                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Gathering comprehensive information.</a></li>
+                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Generating court approved legal documents.</a></li>
+                           
                         </ul>
                 </div>
             </div>
@@ -51,11 +49,11 @@ return (
             <div className="row">
                 <div className="col-md-6">
                     <div className="service-link service-link1">
-                        <h3>Keep the process <span>simple</span></h3>
+                        <h3>Guided and <span>simple</span></h3>
                         <ul>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Your case is not highly complicated.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Your communication is not highly contentious.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">You can complete the forms that we provide.</a></li>
+                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Education about the law.</a></li>
+                                <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">You will <span>Always</span> know where you are.</a></li>
+                                <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">We provide forms, specific to you.</a></li>                            
                             <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Keep the process simple</span>, with our support.</a></li>
                         </ul>
                     </div>
@@ -85,7 +83,7 @@ return (
                 <div className="col-md-6"></div>
                 <div className="col-md-6">
                     <div className="service-link">
-                        <h3>Control the <span>costs</span></h3>
+                        <h3>Flat rate <span>costs</span></h3>
                         <ul>
                             <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Do not</span> spend money for unneccesary services.</a></li>
                             <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Do not</span> get stuck with an initial high cost retainer.</a></li>
