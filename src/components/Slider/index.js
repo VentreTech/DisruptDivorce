@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './slider.css'
-import 'WhiteExample' from '../images/white-example.jpg'
+import whiteExample from '../../images/white-example.jpeg';
 
 const Slider = () => (
   <div>
@@ -9,7 +9,7 @@ const Slider = () => (
       <div className="container">
           <div className="row justify-content-center">
                 <div className="col-md-6">
-                    <div className="slider-content">
+                    <div className="slider-content text-box">
                         <h2>Your Divorce, Better</h2>
 
                         {/* <h1>Make Your Divorce Better</h1> */}
@@ -21,7 +21,7 @@ const Slider = () => (
                 </div>
                 <div className="col-md-6">
                     <div className="slider-content">
-                        <img src={DisruptDivorceOnline} className="img-fluid" alt="#" />
+                        <img src={whiteExample} className="img-fluid" alt="#" />
                     </div>
                 </div>
           </div>

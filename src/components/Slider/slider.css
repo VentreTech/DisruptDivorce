@@ -21,6 +21,9 @@
 .slider-content {
   text-align: left; 
   }
+  .text-box {
+    padding-top: 50px;
+  }
   @media (max-width: 576px) {
     .slider-content {
       top: 164px;

@@ -22,9 +22,9 @@ return (
 <section className="service">
     <div className="container">
         <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 d-none d-md-block">
                 <div className="howit-wrap">
-                    <span className="pe-7s-file"></span>
+                    <span className="pe-7s-comment "></span>
                 </div>
             </div>
             <div className="col-md-6">
@@ -50,9 +50,9 @@ return (
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 d-none d-md-block">
                     <div className="howit-wrap">
-                        <span className="pe-7s-file"></span>
+                        <span className="pe-7s-info"></span>
                     </div>
                 </div>
             </div>
@@ -62,9 +62,9 @@ return (
     <section className="service">
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 d-none d-md-block">
                     <div className="howit-wrap">
-                        <span className="pe-7s-file"></span>
+                        <span className="pe-7s-map-2"></span>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -90,9 +90,9 @@ return (
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 d-none d-md-block">
                     <div className="howit-wrap">
-                        <span className="pe-7s-file"></span>
+                        <span className="pe-7s-way"></span>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ return (
     <section className="service">
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 d-none d-md-block">
                     <div className="howit-wrap">
                         <span className="pe-7s-file"></span>
                     </div>
