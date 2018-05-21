@@ -4,7 +4,7 @@
    ============================================================== */
 .slider {
   position: relative;
-  background: url(../../images/Cover2.jpg) no-repeat;
+  background: #ffffff;
   background-size: cover;
   background-position: center;
   padding: 10rem 0; }
@@ -19,21 +19,23 @@
     z-index: 0; }
 
 .slider-content {
-  text-align: center; }
+  text-align: left; 
+  }
   @media (max-width: 576px) {
     .slider-content {
       top: 164px;
       margin: 0 12px; } }
-  .slider-content h1 {
+  .slider-content h2 {
+    color: #000000;
     margin-bottom: 32px;
     margin-top: 0;
-    text-shadow: 1px 1px 55px rgba(0, 0, 0, 0.47);
+    /* text-shadow: 1px 1px 55px rgba(0, 0, 0, 0.47); */
     letter-spacing: -2px; }
   .slider-content h3 {
-    color: #ffffff;
+    color: #000000;
     line-height: 1.3;
     font-size: 26px;
-    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.37);
+    /* text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.37); */
     font-weight: 400;
     max-width: 790px;
     margin: 0 auto; }

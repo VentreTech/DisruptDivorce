@@ -13,82 +13,105 @@ return (
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <h2>Why should you use our filing <span>services?</span></h2>
+                    <h2>Why should you use our DIY <span>platform?</span></h2>
       </div>
     </div>
   </div>
 </section>
 {/* Object img Sec 01 */}
 <section className="service">
-  <div className="img-objectfit">
-    <div className="grid">
-      <figure className="effect-lily">
-        <img src={DisruptDivorceOnline} className="img-fluid" alt="#" />
-      </figure>
-    </div>
-  </div>
-  <div className="container">
-    <div className="row">
-      <div className="col-md-6"></div>
-      <div className="col-md-6">
-        <div className="service-link">
-         <h3>Our <span>guaranteed</span> process</h3>
-                        <ul>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Gathering comprehensive information.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Generating court approved legal documents.</a></li>
-                           
-                        </ul>
+    <div className="container">
+        <div className="row">
+            <div className="col-md-6">
+                <div className="howit-wrap">
+                    <span className="pe-7s-file"></span>
+                </div>
+            </div>
+            <div className="col-md-6">
+                <div className="service-link">
+                    <h3>1. Decide <span>Divorce</span></h3>
+                    <ul>
+                        <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </section>
     {/* Object img Sec 02 */}
-    <section className="service">
+    <section className="service even">
         <div className="container">
-            <div className="row">
+            <div className="row even">
                 <div className="col-md-6">
-                    <div className="service-link service-link1">
-                        <h3>Guided and <span>simple</span></h3>
+                    <div className="service-link">
+                        <h3>2. Get <span>Informed</span></h3>
                         <ul>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">Education about the law.</a></li>
-                                <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">You will <span>Always</span> know where you are.</a></li>
-                                <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">We provide forms, specific to you.</a></li>                            
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Keep the process simple</span>, with our support.</a></li>
+                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-6"></div>
-            </div>
-        </div>
-        <div className="img-objectfit_1">
-            <div className="grid">
-                <figure className="effect-lily">
-                    <img src={DisruptDivorceSimple} className="img-fluid" alt="#" />
-                </figure>
+                <div className="col-md-6">
+                    <div className="howit-wrap">
+                        <span className="pe-7s-file"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     {/* Object img Sec 03 */}
     <section className="service">
-        <div className="img-objectfit">
-            <div className="grid">
-                <figure className="effect-lily">
-                    <img src={DisruptDivorceCost} className="img-fluid" alt="#" />
-                </figure>
-            </div>
-        </div>
         <div className="container">
             <div className="row">
-                <div className="col-md-6"></div>
+                <div className="col-md-6">
+                    <div className="howit-wrap">
+                        <span className="pe-7s-file"></span>
+                    </div>
+                </div>
                 <div className="col-md-6">
                     <div className="service-link">
-                        <h3>Flat rate <span>costs</span></h3>
+                        <h3>3. Complete <span>Platform</span></h3>
                         <ul>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Do not</span> spend money for unneccesary services.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Do not</span> get stuck with an initial high cost retainer.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#"><span>Do not</span> spend your days worrying about billable hours.</a></li>
-                            <li><i className="fa fa-check" aria-hidden="true"></i><a href="#">We offer a <span>fixed cost</span> service.</a></li>
+                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* Object img Sec 04 */}
+    <section className="service even">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-6">
+                    <div className="service-link">
+                        <h3>4. Reach An <span>Agreement</span></h3>
+                        <ul>
+                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="howit-wrap">
+                        <span className="pe-7s-file"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* Object img Sec 05 */}
+    <section className="service">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-6">
+                    <div className="howit-wrap">
+                        <span className="pe-7s-file"></span>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="service-link">
+                        <h3>5. <span>Be</span> Divorced</h3>
+                        <ul>
+                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
                         </ul>
                     </div>
                 </div>

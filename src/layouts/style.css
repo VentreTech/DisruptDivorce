@@ -441,7 +441,7 @@ COUNDOWN TIMER
   text-align: center;
   margin: 70px 0 0; }
   .howit-wrap span {
-    font-size: 130px;
+    font-size: 200px;
     color: #45c3d3; }
   .howit-wrap h4 {
     padding: 32px 12px 0; }
@@ -636,6 +636,8 @@ figure.effect-lily:hover p {
 
 .service {
   position: relative; }
+  .even {
+    background: #eef9fe; }
   .service .container {
     pointer-events: none; }
   .service img {
@@ -645,7 +647,7 @@ figure.effect-lily:hover p {
     object-fit: cover; }
 
 .service-link {
-  margin: 50px 0 50px 50px; }
+  margin: 50px; }
   @media (max-width: 768px) {
     .service-link {
       margin-left: 0; } }
@@ -658,7 +660,8 @@ figure.effect-lily:hover p {
     .service-link ul li {
       list-style: none; }
       .service-link ul li i {
-        color: #45c3d3;
+        color: #8b9aab;
+        line-height: 2.0;
         padding-right: 12px; }
       .service-link ul li a {
         color: #8b9aab;
