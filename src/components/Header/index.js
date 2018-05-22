@@ -21,20 +21,12 @@ const Header = (props) => (
                               anchorOrigin={{horizontal: 'left', vertical: 'top'}}
                               targetOrigin={{horizontal: 'left', vertical: 'top'}}
                             >
-                              <MenuItem
-                                  primaryText="How it works"
-                                  containerElement={<Link to="/#howitworks" />}
-                              />
                               <MenuItem primaryText="Login" />
                               <MenuItem primaryText="Sign Up" />
                             </IconMenu>
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav">
-
-                                <li className="nav-item">
-                                    <Link to="/#howitworks"  className="nav-link">How it works</Link>
-                                </li>
                                 <li style={{marginRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li>
                                 <li><Link to="/Register" className="btn btn-info">Sign Up</Link></li>
                             </ul>

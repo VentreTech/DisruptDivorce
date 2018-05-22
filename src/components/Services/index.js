@@ -31,7 +31,7 @@ return (
                 <div className="service-link">
                     <h3>1. Decide <span>Divorce</span></h3>
                     <ul>
-                        <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                        <li><i>Depending on your situation, this is either the hardest or easiest step. If you are thinking about therapy, try it. Why not? Once you bring up divorce, you should be prepared.</i></li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +46,7 @@ return (
                     <div className="service-link">
                         <h3>2. Get <span>Informed</span></h3>
                         <ul>
-                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                            <li><i>Register for the Platform and receive a Divorce Guide that educates you on the process and outlines the Divorce Issues for you AND your spouse.</i></li>
                         </ul>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ return (
                     <div className="service-link">
                         <h3>3. Complete <span>Platform</span></h3>
                         <ul>
-                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                                <li><i>Use our Platform to secure an uncontested divorce with your spouse. Save time, money, and heartache by working together instead of paying attorneys, on average, more than $20,000.</i></li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ return (
                     <div className="service-link">
                         <h3>4. Reach An <span>Agreement</span></h3>
                         <ul>
-                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                            <li><i>Our Platforms facilitates agreed and mediated divorces without the expense of lawyers because we believe, and judges agree, that our platform produces comprehensive, fair, and affordable agreements.</i></li>
                         </ul>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ return (
                     <div className="service-link">
                         <h3>5. <span>Be</span> Divorced</h3>
                         <ul>
-                            <li><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci a dictum convallis. Morbi eget justo vel dolor pretium fermentum. Vestibulum tincidunt scelerisque interdum. Nulla mi lorem, porta et lorem eget, ornare vulputate enim. Nam consectetur quam sed nibh egestas cursus. Proin ut lectus tristique nibh tempor tempus. Fusce metus libero, lobortis sed vulputate et, bibendum a lectus. Vivamus at turpis eleifend tortor dapibus facilisis efficitur sed sapien.</i></li>
+                            <li><i>Our Platform will guide you through the divorce process, and if you stumble along the way we will be there to assist you and our Platforms include a 100% Money Back Guarantee*.</i></li>
                         </ul>
                     </div>
                 </div>
