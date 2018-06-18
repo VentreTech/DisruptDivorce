@@ -1,13 +1,16 @@
 
 /* ==============================================================
-   SLIDER
+   Coming Soon
    ============================================================== */
-.slider {
+.coming-soon {
   position: relative;
-  background: #ffffff;
+  background: url(../../images/coming-soon-2.jpg) no-repeat;
+  /* background: #ffffff; */
   background-size: cover;
   background-position: center;
-  padding: 5rem 0; }
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
   .slider:before {
     content: "";
     position: absolute;
@@ -17,17 +20,21 @@
     bottom: 0;
     top: 0;
     z-index: 0; }
-
-.slider-content {
-  text-align: center; 
+  .coming-soon-container {
+    margin-bottom: 10rem;
   }
-  .text-box {
-    padding-top: 50px;
-  }
+.coming-soon-content-right {
+  text-align: center;
+}
   @media (max-width: 576px) {
     .slider-content {
       top: 164px;
       margin: 0 12px; } }
+  .coming-soon-content p {
+    color: #000000;
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
+  }
   .slider-content h2 {
     color: #000000;
     margin-bottom: 32px;
@@ -62,6 +69,10 @@
       flex-direction: column; }
     .form-wrap .btn-form {
       width: 100%; } }
+
+.call-us {
+  padding-top: 100px;
+}
 
 .btn-group {
   width: 100%; }
@@ -105,9 +116,7 @@
   background: #ff0000;
   border: none; }
   .btn-warning:hover {
-    background: #cc0000;
-    color: #ffffff;
-  }
+    background: #cc0000; }
 
 .btn-form {
   font-size: 30px;
