@@ -51,7 +51,7 @@ const ComingSoon = () => (
                             <h2>Your Divorce, Better</h2>
                             <h3>Guided, flat rate and guaranteed process.</h3>
                             <h3>Making your divorce less stressful.</h3>
-                            <a href="https://gumroad.com/l/lets-divorce/testing">
+                            <a href="https://gumroad.com/l/lets-divorce/free">
                                 <button className="btn btn-warning">
                                     Download The Guide
                                 </button>
