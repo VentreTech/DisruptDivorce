@@ -27,7 +27,11 @@ const Footer = (props) => {
                 </div>
                 <div className="col-md-4">
                     <div className="foot-box">
-                        <h6></h6>
+                        <h6>Legal Information</h6>
+                        <ul>
+                            <li><Link to="/tos">Terms of Service</Link></li>
+                            <li><Link to="/privacy">Privacy Policy</Link></li>
+                        </ul>
                     </div>
                 </div>
             </div>
