@@ -1545,3 +1545,15 @@ footer {
       line-height: 0.6; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* ==============================================================
+   TOS and Privacy SECTION
+   ============================================================== */
+
+   .tos { 
+      border-bottom: 2px solid black; }
+      .tos p {
+        color: black;
+      }
+
+
