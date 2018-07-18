@@ -26,6 +26,10 @@
 .coming-soon-content-right {
   text-align: center;
 }
+
+.coming-soon-content ul li {
+  list-style-type: none;
+}
   @media (max-width: 576px) {
     .slider-content {
       top: 164px;

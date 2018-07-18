@@ -22,7 +22,7 @@ const TemplateWrapper = (props) => {
                 { name: 'keywords', content: 'sample, something' },
               ]}
             />
-                <Header metaData={props.data.site.siteMetadata} />
+                <Header metaData={props.data.site.siteMetadata} location={props.location} />
 
             {props.children()}
             <Footer metaData={props.data.site.siteMetadata} />
