@@ -15,8 +15,8 @@ class Header extends Component {
     render() {
 
         const calendlyStyle = {
-            color: '#3776b7',
-            paddingRight: '20px',
+            color: 'white',
+            marginRight: '10px',
         }
 
         let button;
@@ -24,7 +24,7 @@ class Header extends Component {
             button = " ";
         } else {
             button = <ul className="navbar-nav">
-                <li><a className="btn" style={calendlyStyle} href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
+                <li><a className="btn btn-info" style={calendlyStyle} href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
                 {/* <li style={{marginRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li> */}                
                 <li><Link to="/Register" className="btn btn-info">Sign Up</Link></li>
             </ul>
