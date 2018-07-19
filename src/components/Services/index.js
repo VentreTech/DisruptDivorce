@@ -14,7 +14,7 @@ return (
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <h2>Five steps to divorce using our DIY <span>platform?</span></h2>
+                    <h2>Five steps to divorce using our <span>platform?</span></h2>
       </div>
     </div>
   </div>
