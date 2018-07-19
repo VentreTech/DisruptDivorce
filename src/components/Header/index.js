@@ -13,21 +13,29 @@ class Header extends Component {
     }
 
     render() {
+
+        const calendlyStyle = {
+            color: '#3776b7',
+            paddingRight: '20px',
+        }
+
         let button;
         if (this.props.location.pathname == "/Register") {
             button = " ";
         } else {
             button = <ul className="navbar-nav">
-                {/* <li style={{marginRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li> */}
+                <li><a className="btn" style={calendlyStyle} href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
+                {/* <li style={{marginRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li> */}                
                 <li><Link to="/Register" className="btn btn-info">Sign Up</Link></li>
             </ul>
+            
         }
 
         return(
             <header>
                 <section className="johnson-law-service">
                     <div className="row justify-content-center">
-                        <h6>A Service of the Johnson Law Group, PLLC</h6>
+                        <h6>A Service of The Johnson Law Group, PLLC</h6>
                     </div>
                 </section>
                 <div className="container">
