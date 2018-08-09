@@ -56,7 +56,7 @@ const ComingSoon = () => {
                 </div>
             </div>
         </section>
-        <section className="slider">
+        {/* <section className="slider">
             <div className="container">
                 <div className="row justify-content-center">
                         <div className="col-md-6">
@@ -78,7 +78,7 @@ const ComingSoon = () => {
                         </div>
                 </div>
             </div>
-        </section>
+        </section> */}
     </div>
     )
 }
