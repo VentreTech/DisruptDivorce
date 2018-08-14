@@ -8,7 +8,8 @@ const HowItWorks = () => (
             <div className="row">
                 <div className="col-md-12">
                     <h2>How it <span>works</span></h2>
-                    <h6>We’ve made all the hardwork for making it simple for you. Here’s how it works</h6>
+                    <h6>We’ve taken the process of filing uncontested divorce cases in Lexington, Kentucky</h6>
+                    <h6><span>and simplied</span> it, by making it 100% online.</h6>
                 </div>
             </div>
             <div className="row">
@@ -16,7 +17,7 @@ const HowItWorks = () => (
                     <div className="howit-wrap">
                         <span className="pe-7s-plus"></span>
                         <h4>1. Create Account</h4>
-                        <p>This will allow you to connect to the dashboard and see all the information you will need to file.</p>
+                        <p>This will allow you to view the dashboard and see all the information you will need to file.</p>
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -30,7 +31,7 @@ const HowItWorks = () => (
                     <div className="howit-wrap">
                         <span className="pe-7s-check"></span>
                         <h4>3. Confirmation </h4>
-                        <p>Both spouses will review and confirm that information is correct.</p>
+                        <p>Both spouses will review and confirm that the information is correct.</p>
                     </div>
                 </div>
                 <div className="row">
@@ -43,14 +44,14 @@ const HowItWorks = () => (
                     </div>
                     <div className="col-md-4">
                         <div className="howit-wrap">
-                            <span className="pe-7s-file"></span>
+                            <span className="pe-7s-paper-plane"></span>
                             <h4>5. E-File Paperwork</h4>
                             <p>We e-file the completed and notarized documents with the Lexington-Fayette Court House.</p>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="howit-wrap">
-                            <span className="pe-7s-home"></span>
+                            <span className="pe-7s-mail-open-file"></span>
                             <h4>6. Receive Confirmation</h4>
                             <p>Both spouses will receive an email notification once the paperwork has been signed by the court.</p>
                         </div>

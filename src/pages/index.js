@@ -9,8 +9,6 @@ import Services from '../components/Services'
 const IndexPage = ({data}) => (
   <div>
     <Slider />
-    <HowItWorks />
-    <Testimonials />
     <Services />
   </div>
 )

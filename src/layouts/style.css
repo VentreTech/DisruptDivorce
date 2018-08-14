@@ -244,17 +244,17 @@ header {
   padding-right: 36px; }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #45c3d3; }
+  color: #3776b7; }
 
 .btn-info {
-  background: #45c3d3;
-  border: 2px solid #2ea8b7;
+  background: #5690CC;
+  border: 2px solid #3776b7;
   padding: 9px 33px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s; }
   .btn-info:hover {
-    background: #2fb2c3; }
+    background: #3776b7; }
 
 .input-group-addon {
   padding: .5rem 0.15rem; }
@@ -439,10 +439,10 @@ COUNDOWN TIMER
    ============================================================== */
 .howit-wrap {
   text-align: center;
-  margin: 70px 0 0; }
+  margin: 50px 0 0; }
   .howit-wrap span {
-    font-size: 130px;
-    color: #45c3d3; }
+    font-size: 200px;
+    color: #5690CC; }
   .howit-wrap h4 {
     padding: 32px 12px 0; }
   .howit-wrap p {
@@ -617,7 +617,7 @@ figure.effect-lily:hover p {
   transition-duration: 0.35s; }
 
 .service-title {
-  background: #45c3d3;
+  background: #5690CC;
   text-align: center;
   padding: 40px 0; }
   .service-title h2 {
@@ -630,11 +630,14 @@ figure.effect-lily:hover p {
     @media (max-width: 576px) {
       .service-title h2 {
         font-size: 30px; } }
-    .service-title h2 span {
-      border-bottom: 3px solid #ffffff; }
+    .service-title h2 a {
+        color: #ffffff;
+    }
 
 .service {
   position: relative; }
+  .even {
+    background: #afcff0; }
   .service .container {
     pointer-events: none; }
   .service img {
@@ -644,20 +647,21 @@ figure.effect-lily:hover p {
     object-fit: cover; }
 
 .service-link {
-  margin: 50px 0 50px 50px; }
+  margin: 50px; }
   @media (max-width: 768px) {
     .service-link {
       margin-left: 0; } }
   .service-link h3 span {
-    color: #45c3d3;
-    border-bottom: 3px solid #45c3d3; }
+    color: #5690CC;
+    border-bottom: 3px solid #5690CC; }
   .service-link ul {
     margin: 40px 0 0;
     padding: 0; }
     .service-link ul li {
       list-style: none; }
       .service-link ul li i {
-        color: #45c3d3;
+        color: #8b9aab;
+        line-height: 2.0;
         padding-right: 12px; }
       .service-link ul li a {
         color: #8b9aab;
@@ -666,6 +670,10 @@ figure.effect-lily:hover p {
         -webkit-transition: 0.2s;
         -o-transition: 0.2s;
         transition: 0.2s; }
+        .service-link ul li a span {
+            color: #5690CC;
+            border-bottom: 2px solid #5690CC;
+        }
         .service-link ul li a:hover {
           padding-left: 10px;
           text-decoration: none; }
@@ -720,7 +728,7 @@ figure.effect-lily:hover p {
    FOOTER
    ============================================================== */
 footer {
-  background: #45c3d3;
+  background: #ffffff;
   padding: 50px 0; }
 
 @media (max-width: 768px) {
@@ -728,7 +736,7 @@ footer {
     margin: 0 0 36px; } }
 
 .foot-box h6 {
-  color: #ffffff;
+  color: #5690CC;
   margin-bottom: 22px; }
 
 .foot-box ul {
@@ -736,14 +744,14 @@ footer {
   padding: 0; }
   .foot-box ul li {
     list-style: none;
-    color: #ffffff;
+    color: #5690CC;
     line-height: 2; }
     .foot-box ul li a {
-      color: #ffffff;
+      color: #5690CC;
       line-height: 2; }
 
 .subscribe h6 {
-  color: #ffffff;
+  color: #5690CC;
   margin-bottom: 22px; }
 
 .social-icons {
@@ -773,7 +781,7 @@ footer {
   border: 2px solid #168d9b; }
   .subscribe-form::-webkit-input-placeholder {
     /* Chrome */
-    color: #45c3d3; }
+    color: #5690CC; }
 
 .form-inline .input-group {
   width: 100%; }
@@ -798,7 +806,7 @@ footer {
   text-align: center;
   margin: 24px 0 0; }
   .copyright a {
-    color: #ffffff;
+    color: #5690CC;
     margin: 20px; }
 
 /* ==============================================================
@@ -1199,7 +1207,7 @@ footer {
       flex: 100%; } }
 
 .preference-title {
-  background: #45c3d3;
+  background: #5690CC;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; }
   .preference-title h4 {
@@ -1479,7 +1487,7 @@ footer {
 
 .terms-reminder label {
   color: #ccc span a;
-    color-color: #45c3d3; }
+    color-color: #5690CC; }
 
 .complete-booking {
   background: #88ce43;
@@ -1537,3 +1545,15 @@ footer {
       line-height: 0.6; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* ==============================================================
+   TOS and Privacy SECTION
+   ============================================================== */
+
+   .tos { 
+      border-bottom: 2px solid black; }
+      .tos p {
+        color: black;
+      }
+
+
