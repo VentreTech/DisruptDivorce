@@ -25,7 +25,7 @@ class Header extends Component {
         } else {
             button = <ul className="navbar-nav">
                 <li><a className="btn btn-info" style={calendlyStyle} href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
-                {/* <li style={{marginRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li> */}                
+                {/* <li style={{margi4nRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li> */}                
                 <li><Link to="/Register" className="btn btn-info">Sign Up</Link></li>
             </ul>
             
@@ -33,15 +33,35 @@ class Header extends Component {
 
         return(
             <header>
-                <section className="johnson-law-service">
-                    <div className="row justify-content-center">
-                        <h6>A Service of The Johnson Law Group, PLLC</h6>
+                <div className="d-sm-none">
+                    <section className="container johnson-law-service-mobile">
+                        <div className="row justify-content-center">
+                            A Service of The Johnson Law Group, PLLC
+                        </div>
+                    </section>
+                    <div className="row mobile-menu">
+                        <div className="col-md-12">
+                            <nav className="navbar navbar-expand-md navbar-light">
+                                <Link to="/#" className="navbar-brand">
+                                    <img src={LogoIcon} className="img-fluid" alt="#" />
+                                </Link>
+                                <ul>
+                                    <li><span className="pe-7s-date"></span> <a href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
+                                    <li> <span className="pe-7s-add-user"></span> <Link to="/Register">Sign Up</Link></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
-                </section>
-                <div className="container">
+                </div>
+                <div className="container d-none d-md-block">
+                    <section className="container johnson-law-service">
+                        <div className="row justify-content-center">
+                            A Service of The Johnson Law Group, PLLC
+                        </div>
+                    </section>
                     <div className="row">
                         <div className="col-md-12">
-                            <nav className="navbar navbar-expand-lg navbar-light">
+                            <nav className="navbar navbar-expand-md navbar-light">
                                 
                                 <Link to="/#" className="navbar-brand">
                                     <img src={LogoIcon} className="img-fluid" alt="#" />

@@ -1,3 +1,18 @@
+.johnson-law-service-mobile {
+  color: #3776b7;
+  font-size: 0.75rem;
+}
+
 .johnson-law-service {
+  color: #3776b7;
+}
+
+.mobile-menu li {
+  font-size: 1.25rem;
+  margin-top: 0.50rem;
+  list-style-type: none;
+}
+
+.mobile-menu a {
   color: #3776b7;
 }

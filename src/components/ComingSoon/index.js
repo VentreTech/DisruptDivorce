@@ -37,7 +37,7 @@ const ComingSoon = () => {
                             <div className="coming-soon-content text-box">
                                 
                                 <h3>Guided platform is coming soon</h3>
-                                <p>Get our <i>Guide Designed to Make Your Kentucky Divorce Uncontested:</i> "Your Divorce, Better"</p>
+                                {/* <p>Get our <i>Guide Designed to Make Your Kentucky Divorce Uncontested:</i> "Your Divorce, Better"</p> */}
                                 <ul><h6>Contact us:</h6>  
                                     <li>Phone: (502) 233-9888</li>
                                     <li>Email: admin@thejohnsonlawgroup.com</li>
