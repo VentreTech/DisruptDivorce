@@ -18,8 +18,8 @@ const TemplateWrapper = (props) => {
             <Helmet
               title={props.data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
+                { name: 'description', content: 'Your Divorce - Better' },
+                { name: 'keywords', content: 'divorce, marriage, separation, kentucky divorce' },
               ]}
             />
             <Header metaData={props.data.site.siteMetadata} location={props.location} />
