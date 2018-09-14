@@ -34,16 +34,16 @@ class Slider extends Component {
                                         <h2>Your Divorce, Better</h2>
                                         <h3>Guided, flat rate and guaranteed process.</h3>
                                         <h3>Making your divorce less stressful.</h3>
-                                        {/* <a href="https://gumroad.com/l/lets-divorce/free">
+                                        <a href="https://gumroad.com/l/lets-divorce/free">
                                             <button className="btn btn-warning">
                                                 Download The Guide
                                             </button>
-                                        </a> */}
-                                        <a href="https://calendly.com/thejohnsonlawgroup">
+                                        </a>
+                                        {/* <a href="https://calendly.com/thejohnsonlawgroup">
                                             <button className="btn btn-warning" style={homebutton}>
                                                 Schedule Consultation
                                             </button>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                                 <div className="col-md-6">
