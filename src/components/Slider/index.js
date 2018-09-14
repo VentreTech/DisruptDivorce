@@ -24,6 +24,13 @@ class Slider extends Component {
                         <h4>Your Divorce, Better</h4>
                         <p>Guided, flat rate and guaranteed process.</p>
                         <p>Making your divorce less stressful</p>
+                        <p>
+                            <a href="https://gumroad.com/l/lets-divorce/free">
+                                <button className="btn btn-warning">
+                                    Download The Guide
+                                                </button>
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <section className="slider d-none d-md-block">
