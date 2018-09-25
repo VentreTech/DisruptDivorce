@@ -5,6 +5,7 @@ import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import LogoIcon from '../../images/LogoIcon.png';
+import Logo2 from '../../images/LetsDivorceLogo2.png';
 import './header.css'
 
 class Header extends Component {
@@ -36,14 +37,14 @@ class Header extends Component {
                 <div className="d-sm-none">
                     <section className="container johnson-law-service-mobile">
                         <div className="row justify-content-center">
-                            A Service of The Johnson Law Group, PLLC
+                            A Service of The Johnson Law Group, PLLC  |  Attorney Advertising
                         </div>
                     </section>
                     <div className="row mobile-menu">
                         <div className="col-md-12">
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link to="/#" className="navbar-brand">
-                                    <img src={LogoIcon} className="img-fluid" alt="#" />
+                                    <img src={Logo2} className="img-fluid" alt="#" />
                                 </Link>
                                 <ul>
                                     <li><span className="pe-7s-date"></span> <a href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
@@ -56,7 +57,7 @@ class Header extends Component {
                 <div className="container d-none d-md-block">
                     <section className="container johnson-law-service">
                         <div className="row justify-content-center">
-                            A Service of The Johnson Law Group, PLLC
+                            A Service of The Johnson Law Group, PLLC  |  Attorney Advertising
                         </div>
                     </section>
                     <div className="row">
@@ -64,7 +65,7 @@ class Header extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 
                                 <Link to="/#" className="navbar-brand">
-                                    <img src={LogoIcon} className="img-fluid" alt="#" />
+                                    <img src={Logo2} className="img-fluid" alt="#" />
                                 </Link>
                                 
                                 <div className="navbar-toggler">
