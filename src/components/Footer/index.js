@@ -38,7 +38,7 @@ const Footer = (props) => {
                     <div className="foot-box">
                         <h6>Contact Us</h6>
                         <ul>
-                            <li>Phone: (502) 233-9888</li>
+                            <li>Phone: 502.888.1908</li>
                             <li>Email: admin@thejohnsonlawgroup.com</li>
                             <li><a className="btn btn-info" style={calendlyStyle} href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
                         </ul>

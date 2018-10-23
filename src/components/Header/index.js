@@ -27,7 +27,7 @@ class Header extends Component {
             button = <ul className="navbar-nav">
                 <li><a className="btn btn-info" style={calendlyStyle} href="https://calendly.com/thejohnsonlawgroup">Schedule Consultation</a></li>
                 {/* <li style={{margi4nRight: "10px"}}><Link to="/Register" className="btn btn-info">Login</Link></li> */}                
-                <li><a href="https://app.letsdivorce.us/#/" className="btn btn-info">Sign Up</Link></li>
+                <li><a href="https://app.letsdivorce.us/#/" className="btn btn-info">Sign Up</a></li>
             </ul>
             
         }
