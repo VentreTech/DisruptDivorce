@@ -21,9 +21,9 @@ class Slider extends Component {
             <div>
                 <div className="d-sm-none">
                     <div className="slider-content">
-                        <h4>Faster, easier, and cheaper</h4>
+                        <h4>Your Divorce, Better</h4>
                         <p>Guided, flat rate and guaranteed process.</p>
-                        <p>Making your divorce more affordable</p>
+                        <p>Making your divorce less stressful</p>
                         <p>
                             <a href="https://app.letsdivorce.us/#/authentication/register">
                                 <button className="btn btn-warning">
@@ -38,7 +38,7 @@ class Slider extends Component {
                         <div className="row justify-content-center">
                                 <div className="col-md-6">
                                     <div className="slider-content text-box">
-                                      <h2>Faster, Easier, Cheaper</h2>
+                                      <h2>Your Divorce, Better</h2>
                                         <h3>Guided, flat rate and guaranteed process.</h3>
                                         <h3>Making your divorce less stressful.</h3>
                                             <a href="https://app.letsdivorce.us/#/authentication/register">
