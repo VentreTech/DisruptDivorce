@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './coming_soon.css'
 import yourdivorcebetter3D from '../../images/yourdivorcebetter-LD-3D.png';
-import comingsoonimage from '../../images/comingsoonimage.png';
+import comingsoonimage from '../../images/ComingSoonImage.png';
 import yourdivorcebetter3D300 from '../../images/yourdivorcebetter-LD-3D-300.png';
 
 
