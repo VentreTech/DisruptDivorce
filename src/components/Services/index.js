@@ -129,7 +129,7 @@ return (
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                        <h2><a href="https://gumroad.com/l/lets-divorce/free">Download Our Guide Today <span className="pe-7s-angle-right-circle"></span></a></h2>
+                        <h2><a href="https://app.letsdivorce.us/#/authentication/register">Download Our Guide Today <span className="pe-7s-angle-right-circle"></span></a></h2>
           </div>
         </div>
       </div>

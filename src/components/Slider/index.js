@@ -25,7 +25,7 @@ class Slider extends Component {
                         <p>Guided, flat rate and guaranteed process.</p>
                         <p>Making your divorce more affordable</p>
                         <p>
-                            <a href="https://gumroad.com/l/lets-divorce/free">
+                            <a href="https://app.letsdivorce.us/#/authentication/register">
                                 <button className="btn btn-warning">
                                     Download The Guide
                                                 </button>
@@ -40,8 +40,8 @@ class Slider extends Component {
                                     <div className="slider-content text-box">
                                       <h2>Faster, Easier, Cheaper</h2>
                                         <h3>Guided, flat rate and guaranteed process.</h3>
-                                        <h3>Making your divorce more affordable.</h3>
-                                        <a href="https://gumroad.com/l/lets-divorce/free">
+                                        <h3>Making your divorce less stressful.</h3>
+                                            <a href="https://app.letsdivorce.us/#/authentication/register">
                                             <button className="btn btn-warning">
                                                 Download The Guide
                                             </button>
