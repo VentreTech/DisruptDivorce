@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Link from 'gatsby-link'
-import './slider.css'
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+import './slider.css';
 import whiteExample from '../../images/white-example.jpeg';
 import yourdivorcebetter3D from '../../images/yourdivorcebetter-LD-3D.png';
 import yourdivorcebetter3D300 from '../../images/yourdivorcebetter-LD-3D-300.png';
@@ -8,13 +8,13 @@ import yourdivorcebetter3D300 from '../../images/yourdivorcebetter-LD-3D-300.png
 
 class Slider extends Component {
     constructor(props) {
-        super(props)
+        super(props);
     }
     render() {
 
         const homebutton = {
             marginTop: '20px',
-        }
+        };
 
         return(
     
@@ -39,18 +39,17 @@ class Slider extends Component {
                                 <div className="col-md-6">
                                     <div className="slider-content text-box">
                                       <h2>Your Divorce, Better</h2>
-                                        <h3>Guided, flat rate and guaranteed process.</h3>
+                                      <h3>Guided,
+                                            <span style={{fontWeight: 'bold'}}>
+                                              {' $500 '}
+                                            </span>
+                                        flat rate and guaranteed process.</h3>
                                         <h3>Making your divorce less stressful.</h3>
                                             <a href="https://app.letsdivorce.us/#/authentication/register">
                                             <button className="btn btn-warning">
                                                 Download The Guide
                                             </button>
                                         </a>
-                                        {/* <a href="https://calendly.com/thejohnsonlawgroup">
-                                            <button className="btn btn-warning" style={homebutton}>
-                                                Schedule Consultation
-                                            </button>
-                                        </a> */}
                                     </div>
                                 </div>
                                 <div className="col-md-6">
