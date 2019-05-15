@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{106:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Let's Divorce"}},client2:null},layoutContext:{}}}});
+webpackJsonp([60335399758886],{119:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Let's Divorce"}},client2:null},layoutContext:{}}}});
 //# sourceMappingURL=path----b5ad4f3ef98dc75ec2a7.js.map
